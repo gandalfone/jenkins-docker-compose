@@ -37,7 +37,7 @@ pipeline {
 //  }
   post {
     always {
-      sh('docker-compose logs')
+      sh 'docker compose logs'
     }
   }
 }
